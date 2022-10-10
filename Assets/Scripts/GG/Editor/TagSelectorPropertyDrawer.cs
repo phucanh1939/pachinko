@@ -18,7 +18,7 @@ namespace GG.Editor
             {
                 EditorGUI.BeginProperty(position, label, property);
 
-                if (attribute is TagSelectorAttribute { UseDefaultTagFieldDrawer: true } attrib)
+                if (attribute is TagSelectorAttribute { UseDefaultTagFieldDrawer: true })
                 {
                     property.stringValue = EditorGUI.TagField(position, label, property.stringValue);
                 }

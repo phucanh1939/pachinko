@@ -1,5 +1,6 @@
 // ReSharper disable UnassignedField.Global
 // ReSharper disable UnusedMember.Global
+// ReSharper disable NotAccessedField.Local
 
 using UnityEngine;
 
